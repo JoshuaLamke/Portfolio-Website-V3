@@ -3,7 +3,6 @@ body {
     margin-bottom: 13vh;
     background: #ba2d0b;
     background: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%) no-repeat center center fixed;
-    overflow-x: hidden;
 }
 #image-container {
     width: 200px;
