@@ -17,9 +17,13 @@ li {
 }
 #deer-img {
     border: 5px solid rgb(255, 255, 255);
+    max-width: 100%!important;
+    height: auto!important;
 }
 #hiking-img {
     border: 5px solid white;
+    max-width: 100%!important;
+    height: auto!important;
 }
 #deer-img:hover,
 #hiking-img:hover {
