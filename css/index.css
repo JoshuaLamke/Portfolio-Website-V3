@@ -43,10 +43,12 @@ body {
     border: 1px solid #252424;
     box-shadow: 10px 10px 30px #570707;
     color: #000000;
+    margin-bottom: 2vh;
 }
 #skills-container:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
+    margin-bottom: 2vh;
 }
 li {
     font-weight: 600;
