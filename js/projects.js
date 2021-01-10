@@ -31,5 +31,11 @@ $(document).ready(() => {
             " Phrases for the game are randomly fetched from a random phrase API at the start of each game." +
             " Created using Javascript, HTML, and CSS." 
         }
+        if(event.to === 4) {
+            title.textContent = 'Recipe App'
+            paragraph.textContent = `This app allows the user to store all of their favorite recipes. The users either has to log in or sign up
+            to have access to the application. The recipes are stored to a postgres database on heroku and the application frontend is hosted on Netlify. 
+            This application alse uses express for the server. Made using Node, SQL, CSS, HTML, and Javascript.`
+        }
       })
 })

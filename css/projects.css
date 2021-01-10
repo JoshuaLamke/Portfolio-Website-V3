@@ -9,6 +9,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
@@ -26,12 +28,9 @@ body {
 }
 #projects-carousel {
     margin-bottom: 2vh;
-    box-shadow: 10px 10px 30px #2c0000;
+    box-shadow: 10px 10px 30px #023316;
     color: #000000;
-}
-#projects-carousel:hover {
-    border: 5px solid rgb(0, 54, 21);
-    transition-duration: 0.5s;
+    border: 5px solid  #3D9970;
 }
 li {
     font-weight: 600;
@@ -42,4 +41,9 @@ li:hover{
     transition-duration: 0.5s;
     border: 1px solid black;
     border-radius: 1000px;
+}
+@media Screen and (max-width: 500px) {
+    #carousel-container {
+        width: 100vw;
+    }
 }
