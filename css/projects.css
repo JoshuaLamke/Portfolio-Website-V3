@@ -1,7 +1,14 @@
-body{
-    margin-bottom: 13vh;
-    background: #ba2d0b;
-    background: linear-gradient( #ba2d0b 0%, #fe7f2d 37%, #533601 100%) no-repeat center center fixed;
+html,
+body {
+    overflow-x: hidden!important;
+    height: 100%;
+}
+body { 
+    background: white;
+    background-image: url('../img/image2vector\ \(2\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
@@ -11,20 +18,19 @@ body{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 #app-title {
-    color: rgb(153, 163, 17);
+    color: rgb(0, 0, 0);
 }
 #app-explanation {
-    color: rgb(206, 214, 202);
+    color: rgb(0, 0, 0);
+    padding-bottom: 100px;
 }
 #projects-carousel {
     margin-bottom: 2vh;
-    padding-bottom: -1vh;
     box-shadow: 10px 10px 30px #2c0000;
     color: #000000;
 }
 #projects-carousel:hover {
-    transform: scale(1.005);
-    border: 5px solid rgb(59, 41, 2);
+    border: 5px solid rgb(0, 54, 21);
     transition-duration: 0.5s;
 }
 li {

@@ -1,19 +1,20 @@
 html,
 body {
-    width: auto!important;
     overflow-x: hidden!important;
+    height: 100%;
 }
 body { 
-    margin-bottom: 13vh;
-    background: #ba2d0b;
-    background: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%) no-repeat center center fixed;
+    background: white;
+    background-image: url('../img/image2vector\ \(2\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #image-container {
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 4px solid #3D9970;
 }
 #avatar {
     width: 100%;
@@ -25,28 +26,24 @@ body {
     justify-content: center;
 }
 #intro-container {
-    background-color: #000000;
-    background-image: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%);
-    border: 1px solid #252424;
-    box-shadow: 10px 10px 30px#570707;
+    background-color: #3D9970;
+    box-shadow: 10px 10px 30px#043b22;
     color: #222020;
     margin-bottom: 20vh;
     margin-top: 10vh;
 }
 #intro-container:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
     transition-duration: 0.5s;
 }
 #skills-container {
-    background-color: #000000;
-    background-image: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%);
-    border: 1px solid #252424;
-    box-shadow: 10px 10px 30px #570707;
+    background: #3D9970;
+    box-shadow: 10px 10px 30px#043b22;
     color: #000000;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 #skills-container:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
     transition-duration: 0.5s;
     margin-bottom: 2vh;
 }
@@ -59,9 +56,8 @@ li {
     padding: 2vh;
 }
 li:hover{
-    transform: scale(1.1);
-    transition-duration: 0.5s;
     border: 1px solid black;
+    transition: .5s;
     border-radius: 1000px;
 }
 @media Screen and (max-width: 575px) {
