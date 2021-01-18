@@ -3,7 +3,7 @@ let title = document.getElementById('app-title')
 let link = document.getElementById('link-to-app')
 $(document).ready(() => {
     $('#projects-carousel').carousel({
-        interval: 5000
+        interval: 15000
       })
     $('#projects-carousel').on('slide.bs.carousel', function (event) {
         if(event.to === 0) {
