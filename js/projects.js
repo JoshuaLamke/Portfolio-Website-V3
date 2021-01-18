@@ -50,7 +50,8 @@ $(document).ready(() => {
             clear all items from your cart. Since this is a mock shopping app it has no payment processing. To add new items or edit and delete items you can log in as an admin.
             The admin email is admin@test.com and the password is admin. When logging in with these credentials, you will be able to add, edit and delete items from the store.
             These changes will be reflected in the all normal user's application once the react component re-renders. The frontend of this app is built 
-            using React, Redux, and Node. The backend is built using MongoDB and Node/Express.`
+            using React, Redux, and Node. The backend is built using MongoDB and Node/Express. The backend is on Heroku and stores pictures there so any uploaded pictures will be 
+            deleted after a day or whenever the backend restarts.`
             link.href = 'https://e-commerce-app-jka.netlify.app/'
         }
       })
