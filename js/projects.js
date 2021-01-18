@@ -43,5 +43,15 @@ $(document).ready(() => {
             This application alse uses express for the server. Made using Node, SQL, CSS, HTML, and Javascript. The database is on Heroku so logging in will take a bit of time but afterwards everything will work normally.`
             link.href = 'https://recipe-app-jg.netlify.app/'
         }
+        if(event.to === 5) {
+            title.textContent = 'E-Commerce App'
+            paragraph.textContent = `This app is a mock version of a shopping application. You can login or signup and enter the app to shop around for items.
+            You can click on each individual items and select how many you want. Then you can add it to your cart. Then you can checkout which will just
+            clear all items from your cart. Since this is a mock shopping app it has no payment processing. To add new items or edit and delete items you can log in as an admin.
+            The admin email is admin@test.com and the password is admin. When logging in with these credentials, you will be able to add, edit and delete items from the store.
+            These changes will be reflected in the all normal user's application once the react component re-renders. The frontend of this app is built 
+            using React, Redux, and Node. The backend is built using MongoDB and Node/Express.`
+            link.href = 'https://e-commerce-app-jka.netlify.app/'
+        }
       })
 })
