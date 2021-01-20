@@ -40,7 +40,7 @@ $(document).ready(() => {
             title.textContent = 'Recipe App'
             paragraph.textContent = `This app allows the user to store all of their favorite recipes. The users either has to log in or sign up
             to have access to the application. The recipes are stored to a postgres database on heroku and the application frontend is hosted on Netlify. 
-            This application alse uses express for the server. Made using Node, SQL, CSS, HTML, and Javascript. The database is on Heroku so logging in will take a bit of time but afterwards everything will work normally.`
+            This application also uses express for the server. Made using Node, SQL, CSS, HTML, and Javascript. The database is on Heroku so logging in will take a bit of time but afterwards everything will work normally.`
             link.href = 'https://recipe-app-jg.netlify.app/'
         }
         if(event.to === 5) {
